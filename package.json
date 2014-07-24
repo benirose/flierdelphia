@@ -1,16 +1,16 @@
 {
-  "name": "the-new-sandbox",
-  "version": "0.5.0",
-  "description": "Sandbox site featuring typical Apostrophe features",
+  "name": "Flierdelphia",
+  "version": "0.1.0",
+  "description": "Website for fliering in Philly using Apostrophe 2 CMS",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punkave/apostrophe-sandbox"
+    "url": "https://github.com/benirose/flierdelphia"
   },
-  "author": "P'unk Avenue",
+  "author": "Ben Rosenbach",
   "license": "BSD",
   "dependencies": {
     "apostrophe": "0.5.x",

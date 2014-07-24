@@ -2,10 +2,10 @@ var site = require('apostrophe-site')({
 
   // This line is required and allows apostrophe-site to use require() and manage our NPM modules for us.
   root: module,
-  shortName: 'apostrophe-sandbox',
-  hostName: 'apostrophe-sandbox',
-  title: 'Apostrophe Sandbox',
-  sessionSecret: 'apostrophe sandbox demo party',
+  shortName: 'flierdelphia',
+  hostName: 'flierdelphia',
+  title: 'Flierdelphia',
+  sessionSecret: 'flierdelphia helps people who flier',
   adminPassword: 'demo',
 
   // If true, new tags can only be added by admins accessing
@@ -18,7 +18,7 @@ var site = require('apostrophe-site')({
   secondChanceLogin: true,
 
   locals: {
-    loginButton: true
+    loginButton: false
   },
 
   lockups: {
@@ -60,13 +60,8 @@ var site = require('apostrophe-site')({
   pages: {
     types: [
       { name: 'default', label: 'Default (Two Column)' },
-      { name: 'onecolumn', label: 'One Column' },
-      { name: 'blocks', label: 'Blocks' },
-      { name: 'marquee', label: 'Marquee' },
       { name: 'home', label: 'Home Page' },
-      { name: 'blog', label: 'Blog' },
       { name: 'map', label: 'Map' },
-      { name: 'groups', label: 'Directory' }
     ]
   },
 
@@ -81,7 +76,9 @@ var site = require('apostrophe-site')({
       }
     },
     'apostrophe-groups': {},
-    'apostrophe-map':      {},
+    'apostrophe-map':      {
+      
+    },
     // The new editor
     'apostrophe-editor-2': {},
     'apostrophe-blocks': {
